@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: HiringToolmaster
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256MB
+  domain: eu-gb.cf.appdomain.cloud
+  host: Hiring-Tool-master
